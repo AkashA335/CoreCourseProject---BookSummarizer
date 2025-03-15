@@ -1,0 +1,128 @@
+.upload-container {
+    font-family: "Arial", sans-serif;
+    background: #121212;
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1e1e1e;
+    padding: 23px 50px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li {
+    font-size: 23px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.nav-links li:hover,
+.nav-links a:hover {
+    color: #b0b0b0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Upload Section */
+.upload-content {
+    text-align: center;
+    padding: 40px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.drop-area {
+    border: 2px dashed #b0b0b0;
+    padding: 50px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.drop-area.active {
+    border-color: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.drop-area p {
+    font-size: 18px;
+    color: #b0b0b0;
+}
+
+.file-name {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+button {
+    background: #ffffff;
+    color: #121212;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #b0b0b0;
+}
+
+button:disabled {
+    background: #555;
+    cursor: not-allowed;
+}
+
+.audio-section {
+    margin-top: 20px;
+}
+
+audio {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Footer */
+.footer {
+    background: #1e1e1e;
+    color: #ffffff;
+    padding: 23px;
+    font-size: 23px;
+    text-align: center;
+    font-weight: bold;
+}

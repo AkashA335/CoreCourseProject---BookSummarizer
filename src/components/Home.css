@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-container {
+    font-family: "Arial", sans-serif;
+    background: #121212; /* Dark background */
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1e1e1e;
+    padding: 23px 50px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li {
+    font-size: 23px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.nav-links li:hover,
+.nav-links a:hover {
+    color: #b0b0b0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Content */
+.content {
+    display: flex;
+    height: 85vh;
+    align-items: center;
+    padding: 0 80px;
+}
+
+/* Left Side (Text) */
+.text-section {
+    width: 60%; /* Increased width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-section h1 {
+    font-size: 70px; /* Bigger title */
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.text-section p {
+    font-size: 26px; /* Bigger description */
+    line-height: 1.8;
+    color: #b0b0b0;
+    margin-bottom: 30px;
+}
+
+.convert-button {
+    background: #ffffff;
+    color: #121212;
+    padding: 20px 50px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 15px;
+    transition: 0.3s ease;
+    align-self: flex-start;
+}
+
+.convert-button:hover {
+    background: #b0b0b0;
+    color: #121212;
+}
+
+/* Right Side (Image) */
+.emoji-section {
+    width: 40%; /* Smaller width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emoji-image {
+    width: 550px; /* Increased the size of the image */
+    height: auto;
+}
+
+/* Footer */
+.footer {
+    background: #1e1e1e;
+    color: #ffffff;
+    padding: 23px;
+    font-size: 23px;
+    text-align: center;
+    font-weight: bold;
+}
