@@ -50,17 +50,3 @@ The *BookSummarizer* application allows users to upload a PDF, extract its text,
 7. *Storage in S3 Output Bucket*: The generated MP3 file is stored in the S3 Output Bucket.
 8. *Download/Playback*: The final MP3 is made available for playback and download on the frontend.
 
-## Prerequisites
-
-To run this project locally, you'll need the following:
-
-- *Node.js*: Install Node.js from [here](https://nodejs.org/)
-- *AWS Account*: Set up an AWS account if you don't already have one.
-- *AWS SDK*: Make sure to install the AWS SDK and configure your credentials.
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/BookSummarizer.git
-   cd BookSummarizer
