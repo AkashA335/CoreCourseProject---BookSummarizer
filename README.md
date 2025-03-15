@@ -8,7 +8,9 @@ The **BookSummarizer** application allows users to upload a PDF, extract its tex
 
 ## Architecture
 
-- **React Frontend**: The frontend is built using React and is hosted on AWS Amplify.
+ ![Core Course Project](https://github.com/user-attachments/assets/b5b5c987-3a77-42d4-8dbf-a867d941b5ce)
+- **React Frontend**
+: The frontend is built using React and is hosted on AWS Amplify.
 - **API Gateway**: The frontend communicates with an API Gateway that handles the interaction with backend services.
 - **Lambda Function**: The Lambda function is triggered by the API Gateway. It manages the core backend processes.
 - **S3 Input Bucket**: The uploaded PDF is stored in the S3 Input Bucket.
