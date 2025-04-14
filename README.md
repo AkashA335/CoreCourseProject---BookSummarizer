@@ -1,4 +1,4 @@
-# CoreCourseProject - BookSummarizer
+#BookSummarizer
 
 This project is done as part of our curriculum. It utilizes AWS services to summarize a book (PDF) and provides the summary in the format of an MP3 file.
 
